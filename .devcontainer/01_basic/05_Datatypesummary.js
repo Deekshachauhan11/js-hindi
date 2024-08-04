@@ -33,3 +33,27 @@ const myFunction = function(){
 console.log(typeof bigNumber);
 
 // JavaScript is a dynamic language. It allows for dynamic typing, meaning variables can hold values of any type and can change types at runtime. This flexibility is a key characteristic of dynamic languages.
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack memory(primitive) and Heap (Non-primitive)
+
+let myYoutubename = "deekshachuahancom"
+
+let another = myYoutubename
+anothername = "chaiorcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@upi"
+}
+let userTwo = userOne
+
+userTwo.Email = "cdeeksha0012gamil.com"
+
+console.log(userTwo.Email);
+console.log(userOne.Email);
