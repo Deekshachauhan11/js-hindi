@@ -57,3 +57,33 @@ console.log(Object.entries(tinderUser));
 
 
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+
+// 18th video
+
+const course  = {
+    couresname: "js in hindi",
+    price: "9999",
+    courseInstructor: "hitesh"
+}
+
+course.courseInstructor
+const {courseInstructor: Instructor} = course
+console.log(Instructor);
+
+
+//JSON API
+//Object API
+// {
+//     "name": "anu"
+//     "coursename": "js in hindi"
+//     "price": "free"
+// }
+
+//Array API
+[
+    {},
+    {},
+    {}
+]
